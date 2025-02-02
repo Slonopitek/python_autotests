@@ -3,7 +3,7 @@ import pytest
 
 URL = 'https://api.pokemonbattle.ru/v2'
 TRAINER_ID = '12609'
-TOKEN = '2d4a33466784572e07bece4684f0917'
+TOKEN = 'TRAINER_TOKEN'
 HEADER = {'Content_Type':'application/json', 'trainer_token': TOKEN}
 
 def test_status_code():
