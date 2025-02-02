@@ -3,7 +3,7 @@ import pytest
 
 URL = 'https://api.pokemonbattle.ru/v2'
 TRAINER_ID = '12609'
-TOKEN = '9dcbc54c1b7ea9a4b7919379a9075dc1'
+TOKEN = 'TRAINER_TOKEN'
 HEADER = {'Content_Type':'application/json', 'trainer_token': TOKEN}
 BODY_POKEMONS = {
     "name": "generate",
@@ -11,7 +11,7 @@ BODY_POKEMONS = {
 }
 BODY_RENAME = {
     "pokemon_id": "192634",
-    "name": "ПятьСемьСемьПять",
+    "name": "NEW_NICKNAME",
     "photo_id": 2
 }
 BODY_CATCH = {
